@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱奇艺首页</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowplayer/7.2.5/skin/skin.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.0.3/video-js.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.0.3/video.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ccd598b6be74756311ac60fd08bec75e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div class="index-bg">
+    <div class="index-header">
+        <a href=""><img src="img/index/iqiyi.png" alt=""></a>
+    </div>
+    <div class="index-iqut">
+        <img src="img/index/header.png" alt="">
+        <div class="index-iqut-text">
+            <a onclick="_hmt.push(['_trackEvent','shopping','click','indexBuy'])"
+               href="http://www.iqiyismart.com/avatar" id="index-buy-iqut" class="index-iqut-buy">立即购买</a>
+            <a href="view/iqut2-overview.html" class="index-iqut-more">了解更多</a>
+        </div>
+    </div>
+    <div class="index-ireal">
+        <img src="img/index/banner.png" alt="">
+        <img src="img/index/红耳机.png" alt="" class="index-red">
+        <div class="index-iqut-text">
+            <a onclick="_hmt.push(['_trackEvent','测试','click_span7'])" href="http://www.iqiyismart.com/avatar"
+               id="index-buy-iReal" class="index-iqut-buy">立即购买</a>
+            <a href="view/iReal-overview.html" class="index-iqut-more">了解更多</a>
+        </div>
+    </div>
+    <div class="index-moreproject">
+        <div class="index-iqut1">
+            <img src="img/index/iqut1.jpg" alt="">
+            <div class="index-iqut-text index-iqut-iqut1">
+                <a href="view/iqut1-overview.html" class="index-iqut-more">了解更多</a>
+            </div>
+        </div>
+        <div class="index-plus">
+            <img src="img/index/more.jpg" alt="">
+            <div class="index-iqut-text">
+                <a href="view/plus-overview.html" class="index-iqut-more">了解更多</a>
+            </div>
+        </div>
+        <div class="index-pro">
+            <img src="img/index/pro.jpg" alt="">
+            <div class="index-iqut-text">
+                <a href="view/pro-overview.html" class="index-iqut-more">了解更多</a>
+            </div>
+        </div>
+    </div>
+    <div class="index-footer">
+        <img src="img/index/footer-left.jpg" alt="" class="index-footer-left">
+        <img src="img/index/footer-right.jpg" alt="" class="index-footer-right">
+        <div class="video-wrap">
+            <video id="my-video" class="video-js vjs-big-play-centered " data-setup="{}">
+                <!--<button class=""></button>-->
+                <source src="http://data.store.iqiyi.com/cdn/vrcr/20181011/ct/pt/iqut_20181011.mp4">
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="http://videojs.com/html5-video-support/" target="_blank">
+                        supports HTML5 video
+                    </a>
+                </p>
+            </video>
+        </div>
+    </div>
+</div>
+<div class="common-footer">
+    Copyright&nbsp;©&nbsp;2018&nbsp;爱奇艺智能&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;渝ICP备18002599号
+</div>
+<script src="script/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0; }
+
+a {
+  outline: 0 !important;
+  text-decoration: none !important; }
+
+.common-header .wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #191919;
+  z-index: 999; }
+.common-header .bg-gray {
+  background-color: rgba(128, 127, 125, 0.6); }
+.common-header .limit-with {
+  max-width: 1300px;
+  margin: 0 auto; }
+.common-header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0 15px;
+  box-sizing: border-box; }
+.common-header .iqiyi-logo {
+  padding: 12.5px 0; }
+.common-header .nav-title {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.common-header .on-golden:hover {
+  color: #d7b580; }
+.common-header .on-green:hover {
+  color: #22ac38; }
+.common-header .on-red:hover {
+  color: #f15d42; }
+.common-header .about-us {
+  cursor: pointer;
+  color: white; }
+.common-header .logo {
+  float: left;
+  line-height: 2.08rem;
+  font-size: 2.4rem;
+  padding: 20px 0; }
+.common-header .text-golden {
+  color: #d7b580; }
+
+.common-footer {
+  color: #989898;
+  background-color: #191919;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.aboutUs-header {
+  font-size: 0;
+  margin-top: 60px; }
+  .aboutUs-header img {
+    width: 100%; }
+
+.aboutUs-content {
+  font-size: 0;
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto; }
+  .aboutUs-content img {
+    width: 100%; }
+
+.bt {
+  border-top: 1px solid #e6e6e6; }
+
+.navigation .navgation-title .on-golden .second-nav {
+  opacity: 1;
+  display: block; }
+
+.second-nav {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  display: none; }
+  .second-nav ul {
+    box-sizing: border-box;
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto; }
+  .second-nav li {
+    display: inline-block;
+    cursor: pointer;
+    font-family: PingFangSC; }
+
+.nav-title > li {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 21px;
+  cursor: pointer; }
+  .nav-title > li:hover > div {
+    display: block;
+    opacity: 1; }
+  .nav-title > li a {
+    text-decoration: none;
+    color: white; }
+  .nav-title > li .add-padding-golden,
+  .nav-title > li .add-padding-green {
+    padding: 20px 0;
+    margin: 0 21px; }
+    .nav-title > li .add-padding-golden:hover,
+    .nav-title > li .add-padding-green:hover {
+      padding: 20px 0 14px 0; }
+  .nav-title > li .add-padding-golden:hover {
+    border-bottom: solid 6px #d7b580; }
+  .nav-title > li .add-padding-green:hover {
+    border-bottom: solid 6px #22ac38; }
+
+.on-about-us {
+  color: #22ac38; }
+
+.contentText {
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding: 45px 15px 0 15px;
+  margin: 0 auto; }
+  .contentText .bottom-border {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 50px; }
+  .contentText .contentText-title {
+    font-size: 36px; }
+  .contentText ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 22px; }
+    .contentText ul li {
+      margin-top: 37px; }
+      .contentText ul li span {
+        font-size: 17px; }
+
+.aboutUs-footer {
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding: 45px 15px 90px 15px;
+  margin: 0 auto; }
+  .aboutUs-footer .contentText-title {
+    font-size: 36px;
+    margin-bottom: 40px; }
+  .aboutUs-footer .aboutUs-message {
+    font-size: 0;
+    display: flex;
+    justify-content: space-between; }
+    .aboutUs-footer .aboutUs-message .message-right {
+      width: 55%; }
+      .aboutUs-footer .aboutUs-message .message-right img {
+        width: 100%; }
+    .aboutUs-footer .aboutUs-message .message-left {
+      width: 40%;
+      margin-right: 5%;
+      font-size: 17px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column; }
+      .aboutUs-footer .aboutUs-message .message-left .mt-20 {
+        margin-top: 3.4%; }
+      .aboutUs-footer .aboutUs-message .message-left .message-left-email .mb-20 {
+        margin-bottom: 3.4%; }
+      .aboutUs-footer .aboutUs-message .message-left .message-left-footer span {
+        display: block;
+        margin-bottom: 2.5%; }
+      .aboutUs-footer .aboutUs-message .message-left img {
+        width: 26%; }
+      .aboutUs-footer .aboutUs-message .message-left .mr-5 {
+        margin-right: 5%; }
+
+/*# sourceMappingURL=aboutUs.css.map */

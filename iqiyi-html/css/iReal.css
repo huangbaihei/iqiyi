@@ -1,0 +1,278 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0; }
+
+a {
+  outline: 0 !important;
+  text-decoration: none !important; }
+
+.common-header .wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #191919;
+  z-index: 999; }
+.common-header .bg-gray {
+  background-color: rgba(128, 127, 125, 0.6); }
+.common-header .limit-with {
+  max-width: 1300px;
+  margin: 0 auto; }
+.common-header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0 15px;
+  box-sizing: border-box; }
+.common-header .iqiyi-logo {
+  padding: 12.5px 0; }
+.common-header .nav-title {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.common-header .on-golden:hover {
+  color: #d7b580; }
+.common-header .on-green:hover {
+  color: #22ac38; }
+.common-header .on-red:hover {
+  color: #f15d42; }
+.common-header .about-us {
+  cursor: pointer;
+  color: white; }
+.common-header .logo {
+  float: left;
+  line-height: 2.08rem;
+  font-size: 2.4rem;
+  padding: 20px 0; }
+.common-header .text-golden {
+  color: #d7b580; }
+
+.common-footer {
+  color: #989898;
+  background-color: #191919;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.ireal-content {
+  font-size: 0;
+  position: relative; }
+  .ireal-content img {
+    width: 100%; }
+  .ireal-content .ireal-bannerbuy {
+    width: 14%;
+    height: 9vw;
+    display: block;
+    position: absolute;
+    font-size: 96px;
+    left: 13%;
+    top: 7%;
+    color: aliceblue;
+    border: 5px solid transparent; }
+
+.border-box {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.ireal-bg {
+  background-color: #101010; }
+
+.ireal-headertext {
+  padding-top: 100px;
+  border-bottom: 1px solid #eaeaea;
+  line-height: 60px;
+  font-family: PingFangSC; }
+
+.ireal-border-bottom {
+  border-bottom: 1px solid #707070; }
+
+.flex-btn {
+  display: flex;
+  justify-content: space-between; }
+
+.ireal-left-header {
+  font-size: 34px;
+  font-weight: bold; }
+
+.ireal-right-header a {
+  text-decoration: none; }
+
+.ml-45 {
+  margin-left: 40px; }
+
+.size-14 {
+  font-size: 14px; }
+
+.ireal-overview {
+  padding: 3px 8px;
+  color: #f15d42; }
+
+.ireal-overview-buy {
+  padding: 2.5px 7.5px;
+  color: #717171;
+  border-radius: 15px;
+  border: 1px solid #717171; }
+
+.header-hovered {
+  padding: 3px 8px;
+  color: #717171; }
+
+.ireal-header-buy {
+  padding: 3px 8px;
+  color: #fff;
+  background-color: #f15d42;
+  border-radius: 15px; }
+
+.ireal-header-technical {
+  color: #f15d42;
+  padding: 3px 8px; }
+
+.ireal-footer {
+  position: relative; }
+  .ireal-footer .ireal-footerbuy {
+    text-decoration: none;
+    padding: 12px 41px;
+    border: 2px solid #f15d42;
+    border-radius: 40px;
+    font-size: 26px;
+    color: #f15d42;
+    font-weight: normal;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%); }
+
+.ireal-limit-width {
+  max-width: 1300px;
+  margin: 0 auto; }
+  .ireal-limit-width img {
+    width: 100%; }
+
+.ireal-border {
+  border-bottom: 1px solid #eaeaea; }
+
+#showcase {
+  overflow: visible !important;
+  margin: 0 auto;
+  background-color: #47443c; }
+
+#showcase img {
+  width: 35%;
+  cursor: pointer; }
+
+.iReal-footer {
+  position: relative;
+  background-color: #151515;
+  overflow: hidden; }
+  .iReal-footer .occupied-img {
+    visibility: hidden;
+    z-index: -99;
+    width: 100%; }
+
+.ireal-buy-btn {
+  padding-top: 2%;
+  padding-bottom: 4%;
+  text-align: center;
+  background-color: #151515; }
+  .ireal-buy-btn .buy-btn {
+    display: inline-block;
+    padding: 12px 41px;
+    border: 2px solid #ff0808;
+    color: #ff0808;
+    border-radius: 40px;
+    font-size: 26px; }
+
+.choose-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  background-color: #151515; }
+
+.type-btn {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 0 22.5px;
+  outline: none;
+  opacity: 0.5; }
+
+.red-btn {
+  border: 2px solid #e83d25;
+  background-color: #e83d25; }
+
+.black-btn,
+.golden-btn {
+  border: 2px solid #6f675d; }
+
+.choose-color .black-btn {
+  background-color: #000;
+  opacity: 1; }
+
+.golden-btn {
+  background-color: #6b5740; }
+
+.coming {
+  display: block !important; }
+
+.navigation .navgation-title .on-golden .second-nav {
+  opacity: 1;
+  display: block; }
+
+.second-nav {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  display: none; }
+  .second-nav ul {
+    box-sizing: border-box;
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto; }
+  .second-nav li {
+    display: inline-block;
+    cursor: pointer;
+    font-family: PingFangSC; }
+
+.nav-title > li {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 21px;
+  cursor: pointer; }
+  .nav-title > li .on-red {
+    color: #f15d42; }
+  .nav-title > li:hover > div {
+    display: block;
+    opacity: 1; }
+  .nav-title > li a {
+    text-decoration: none;
+    color: white; }
+  .nav-title > li .add-padding-golden,
+  .nav-title > li .add-padding-green {
+    padding: 20px 0;
+    margin: 0 21px; }
+    .nav-title > li .add-padding-golden:hover,
+    .nav-title > li .add-padding-green:hover {
+      padding: 20px 0 14px 0; }
+  .nav-title > li .add-padding-golden:hover {
+    border-bottom: solid 6px #d7b580; }
+  .nav-title > li .add-padding-green:hover {
+    border-bottom: solid 6px #22ac38; }
+  .nav-title > li .active {
+    padding: 20px 0 14px 0;
+    border-bottom: solid 6px #d7b580; }
+
+/*# sourceMappingURL=iReal.css.map */

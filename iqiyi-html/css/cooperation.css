@@ -1,0 +1,183 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0; }
+
+a {
+  outline: 0 !important;
+  text-decoration: none !important; }
+
+.common-header .wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #191919;
+  z-index: 999; }
+.common-header .bg-gray {
+  background-color: rgba(128, 127, 125, 0.6); }
+.common-header .limit-with {
+  max-width: 1300px;
+  margin: 0 auto; }
+.common-header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0 15px;
+  box-sizing: border-box; }
+.common-header .iqiyi-logo {
+  padding: 12.5px 0; }
+.common-header .nav-title {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.common-header .on-golden:hover {
+  color: #d7b580; }
+.common-header .on-green:hover {
+  color: #22ac38; }
+.common-header .on-red:hover {
+  color: #f15d42; }
+.common-header .about-us {
+  cursor: pointer;
+  color: white; }
+.common-header .logo {
+  float: left;
+  line-height: 2.08rem;
+  font-size: 2.4rem;
+  padding: 20px 0; }
+.common-header .text-golden {
+  color: #d7b580; }
+
+.common-footer {
+  color: #989898;
+  background-color: #191919;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.cooperation-header {
+  font-size: 0;
+  margin-top: 60px; }
+  .cooperation-header img {
+    width: 100%; }
+
+.cooperation-content {
+  max-width: 1300px;
+  font-size: 0;
+  margin: 2.5% auto;
+  min-width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box; }
+  .cooperation-content img {
+    width: 100%; }
+
+.cooperation-footer {
+  font-size: 0; }
+  .cooperation-footer img {
+    width: 100%; }
+
+.navigation .navgation-title .on-golden .second-nav {
+  opacity: 1;
+  display: block; }
+
+.second-nav {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  display: none; }
+  .second-nav ul {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto; }
+  .second-nav li {
+    display: inline-block;
+    cursor: pointer;
+    font-family: PingFangSC; }
+
+.nav-title > li {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 21px;
+  cursor: pointer; }
+  .nav-title > li .on-red {
+    color: #f15d42; }
+  .nav-title > li:hover > div {
+    display: block;
+    opacity: 1; }
+  .nav-title > li a {
+    color: white; }
+  .nav-title > li .add-padding-golden,
+  .nav-title > li .add-padding-green {
+    padding: 20px 0;
+    margin: 0 21px; }
+    .nav-title > li .add-padding-golden:hover,
+    .nav-title > li .add-padding-green:hover {
+      padding: 20px 0 14px 0; }
+  .nav-title > li .add-padding-golden:hover {
+    border-bottom: solid 6px #d7b580; }
+  .nav-title > li .add-padding-green:hover {
+    border-bottom: solid 6px #22ac38; }
+
+.navigation .navgation-title .on-golden .second-nav {
+  opacity: 1;
+  display: block; }
+
+.second-nav {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  display: none; }
+  .second-nav ul {
+    box-sizing: border-box;
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto; }
+  .second-nav li {
+    display: inline-block;
+    cursor: pointer;
+    font-family: PingFangSC; }
+
+.nav-title > li {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 21px;
+  cursor: pointer; }
+  .nav-title > li:hover > div {
+    display: block;
+    opacity: 1; }
+  .nav-title > li a {
+    text-decoration: none;
+    color: white; }
+  .nav-title > li .add-padding-golden,
+  .nav-title > li .add-padding-green {
+    padding: 20px 0;
+    margin: 0 21px; }
+    .nav-title > li .add-padding-golden:hover,
+    .nav-title > li .add-padding-green:hover {
+      padding: 20px 0 14px 0; }
+  .nav-title > li .add-padding-golden:hover {
+    border-bottom: solid 6px #d7b580; }
+  .nav-title > li .add-padding-green:hover {
+    border-bottom: solid 6px #22ac38; }
+  .nav-title > li .on-cooperation {
+    color: #22ac38; }
+
+/*# sourceMappingURL=cooperation.css.map */

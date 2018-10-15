@@ -1,0 +1,161 @@
+@import "nav-header";
+@charset "utf-8";
+.aboutUs-header{
+  font-size: 0;
+  margin-top: 60px;
+  img{
+    width: 100%;
+  }
+}
+.aboutUs-content{
+  font-size: 0;
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto ;
+  img{
+    width: 100%;
+  }
+}
+.bt{
+  border-top: 1px solid #e6e6e6;
+}
+
+
+.navigation .navgation-title .on-golden .second-nav {
+  opacity: 1;
+  display: block;
+}
+
+.second-nav {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  display: none;
+  ul {
+    box-sizing: border-box;
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  li {
+    display: inline-block;
+    cursor: pointer;
+    font-family: PingFangSC;
+  }
+}
+
+.nav-title > li {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 21px;
+  cursor: pointer;
+  &:hover > div {
+    display: block;
+    opacity: 1;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .add-padding-golden,
+  .add-padding-green {
+    padding: 20px 0;
+    margin: 0 21px;
+    &:hover {
+      padding:  20px 0 14px 0;
+    }
+  }
+  .add-padding-golden:hover {
+    border-bottom: solid 6px #d7b580;
+  }
+  .add-padding-green:hover {
+    border-bottom: solid 6px #22ac38;
+  }
+}
+.on-about-us {
+  color: #22ac38;
+}
+//content
+.contentText{
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding: 45px 15px 0 15px;
+  margin: 0 auto;
+  .bottom-border{
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 50px;
+  }
+  .contentText-title{
+    font-size: 36px;
+  }
+  ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin:0;
+    font-size: 22px;
+    li{
+      margin-top: 37px;
+      span{
+        font-size: 17px;
+      }
+    }
+  }
+}
+.aboutUs-footer{
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding: 45px 15px 90px 15px;
+  margin: 0 auto;
+  .contentText-title{
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .aboutUs-message{
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    .message-right{
+      width: 55%;
+      img{
+        width: 100%;
+      }
+    }
+    .message-left{
+      width: 40%;
+      margin-right: 5%;
+      font-size: 17px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .mt-20{
+        margin-top: 3.4%;
+      }
+      .message-left-email{
+        .mb-20{
+          margin-bottom: 3.4%;
+        }
+      }
+      .message-left-footer{
+        span{
+          display: block;
+          margin-bottom: 2.5%;
+        }
+      }
+      img{
+        width: 26%;
+      }
+      .mr-5{
+        margin-right: 5%;
+      }
+    }
+  }
+}
